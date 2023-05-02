@@ -42,7 +42,7 @@ nav>h2{
     transform: ease 2000;
 }
 
-.menu-icon{
+.ri-menu-line{
     display: none;
 }
 
@@ -104,4 +104,27 @@ section{
 
 .img-container img{
     width: 80%;
+}
+
+
+@media (max-width:600px) {
+    section{
+        flex-direction: column;
+    }
+    .cta{
+        margin-bottom: 20px;
+    }
+    .img-container img{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:540px) {
+    .ri-menu-line{
+        display:block;
+    }
+    .nav-list{
+        display: none;
+    }
 }
